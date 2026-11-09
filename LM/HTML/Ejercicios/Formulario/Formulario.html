@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form >
+        <h3>Texto</h3>
+        <label for='nombre'>Nombre:
+        <input type='text' name='nombre'>
+        </label>
+        <h3>Radio Button</h3>
+        <p>Sexo: </p>
+            <input type='radio' name='sexo' value='hombre'>Hombre
+            <br>
+            <input type='radio' name='sexo' value='mujer'>Mujer
+            <br>
+            <input type='radio' name='sexo' value='mujer'>Other
+        <h3>Selector de opciones</h3>
+        <label for='opciones'>Marcas de coches:
+            <select name='opciones'>
+                <option value='Volvo'>Volvo</option>
+                <option value='Mclaren'>Mclaren</option>
+                <option value='Lamborgini'>Lamborgini</option>
+                <option value='Ferrari'>Ferrari</option>
+                <option value='Koenigsegg'>Koenigsegg</option>
+            </select>
+        </label>
+        <h3>Área de Texto</h3>
+            <textarea name='comentarios' rows='4' cols='50' placeholder='Texto inicial del campo'></textarea>
+        <h3>Contraseña</h3>
+        <label for='password'>Keyword::
+            <input type='password' name='password'>    
+        </label>
+        <h3>Checkbox</h3>
+        <p>Cual es tu vehiculo: </p>
+        <label>
+            <input type='checkbox' name='vehiculo' value='bici'> Tengo una bici
+            <br>
+            <input type='checkbox' name='vehiculo' value='coche'> Tengo un coche
+            <br>
+            <input type='checkbox' name='vehiculo' value='moto'> Tengo una moto
+        </label>
+        <h3>Subida de archivos</h3>
+        <label for='archivo'>Archivo:
+            <input type='file' name='archivo'>
+        </label>
+        <h3>Botón de envío</h3>
+        <input type='submit' value='Enviar'>
+    </form>
+</body>
+</html>
