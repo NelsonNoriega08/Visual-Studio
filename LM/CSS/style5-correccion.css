@@ -1,0 +1,61 @@
+nav ul ul{
+    display: none;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+nav ul {
+    width: 645px;
+    background-color: rgb(195, 196, 195);
+    padding-left: 20px;
+}
+
+nav > ul > li{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(150, 253, 219);
+    border-right: 1px solid rgb(56, 170, 170);
+    position: relative;
+}
+
+nav > ul > li:last-child{
+    border: 0;
+}
+
+nav > ul > li:hover ul{
+    display: block;
+}
+
+nav ul ul{
+    position: absolute;
+    width: 160px;
+    padding: 0;
+    text-transform: capitalize;
+    font-weight: initial;
+    padding: 10px;
+    left: 20px;
+}
+
+nav ul ul > li{
+    border-bottom: 1px solid rgb(56, 170, 170);
+}
+
+nav ul ul > li:hover{
+    
+}
+
+nav ul ul > li:last-child{
+    border: 0;
+}
+
+.seleccionado{
+    font-weight: bold;
+}
+
+

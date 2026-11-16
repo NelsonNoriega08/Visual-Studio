@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+header{
+    background-color: black;
+}
+
+nav{
+    background-color: rgb(255, 181, 42);
+    color: white;
+    width: 120px;
+    float: left;
+    height: 100vh;
+}
+
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav ul > li{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 11px;
+    border-bottom: 1px solid black;
+}
+
+nav ul > li:last-child{
+    border: none;
+}
+
+nav ul ul{
+    background-color: rgb(255, 181, 42);
+    display: none;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul li:hover{
+    background-color: rgb(166, 166, 167);
+}
+
+nav ul ul li{
+    margin-top: 5px;
+    width: 100px;
+}
+
+nav ul li > ul{
+    position: absolute;
+    top: -5px;
+    left: 115px;
+    height: 145px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+p{
+    margin-left: 170px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+td{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main > img{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border: 5px solid yellow;
+    width: 40px;
+    height: 40px;
+}
