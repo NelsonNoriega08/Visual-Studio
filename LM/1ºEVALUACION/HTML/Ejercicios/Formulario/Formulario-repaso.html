@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form action="#" method="post">
+        <p>
+            <label for="username">UserName*</label>
+            <input type="text" name="username" id="username" placeholder="Introduce tu nombre de usuario" required/>
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass" required />
+        </p>
+
+        <p>
+            <input type="radio" name="genero" id="masculino" checked/>
+            <label for="masculino">Masculino</label>
+            <br />
+            <input type="radio" name="genero" id="femenino">
+            <label for="Femenino">Femenino</label>
+            <br />
+            <input type="radio" name="genero" id="Otro">
+            <label for="Otro">Otro</label>
+        </p>
+
+        <fieldset>
+            <legend>Datos Academicos</legend>
+            
+            <input type="checkbox" name="eso" id="eso">
+            <label fro="eso">Tienes la eso</label>
+            <br>
+            <input type="checkbox" name="bachillerato" id="bachillerato">
+            <label fro="bachillerato">Tienes la bachillerato</label>
+            <br>
+            <input type="checkbox" name="medio" id="medio">
+            <label fro="medio">Tienes la medio</label>
+        </fieldset>
+
+        <label for="provincia">Provincia</label>
+        <select name="provincia" id="provincia">
+            <optgroup label="Comunidad Valencia">
+                <option value="val">Valencia</option>
+                <option value="cas">Castellón</option>
+                <option value="ali">Alicante</option>
+            </optgroup>
+            <optgroup label="Comunidad Catalunya">
+                <option value="val">Tarragona</option>
+                <option value="cas">Barcelona</option>
+                <option value="ali">Girona</option>
+            </optgroup>
+        </select>
+        <br>
+        <labl for="archivo">Sube tu curriculum</labl>
+        <input type="file" name="archivo" id="archivo">
+    </form>
+</body>
+</html>
